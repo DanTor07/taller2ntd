@@ -54,37 +54,85 @@
             </div>
         </header>
         <!-- Main Content-->
-        <div class="container px-4 px-lg-5">
-            <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-md-10 col-lg-8 col-xl-7">
-                    <!-- Post preview-->
-                    <div class="post-preview">
-                        <a href="post.html">
-                            <h2 class="post-title">Avances y Aplicaciones de la Visión Artificial: Desde Modelos de Aprendizaje Profundo hasta Retos y Oportunidades Futuras</h2>
-                            <p>La visión artificial, una rama de la inteligencia artificial (IA), se centra en capacitar a las máquinas para interpretar y comprender la información visual del mundo real, tal como lo hace el ojo humano. Este campo se ha desarrollado considerablemente gracias al avance de las redes neuronales profundas, las cuales han mejorado significativamente el rendimiento en tareas de visión artificial.</p>
-                            <h2 class="section-heading">Modelos de Aprendizaje Profundo en Visión Artificial</h2>
-                            <p>Las redes neuronales convolucionales (CNN) han sido fundamentales en el progreso de la visión artificial, permitiendo avances en áreas como el procesamiento de video, el reconocimiento de objetos y el procesamiento de lenguaje natural . Un ejemplo notable es el "Swin Transformer", que ha demostrado ser una arquitectura base generalizada para tareas de visión artificial, superando a modelos anteriores en clasificación de imágenes, detección de objetos y segmentación semántica.</p>
-                            <h2 class="section-heading">Incertidumbre en el Aprendizaje Profundo</h2>
-                            <p>En el contexto del aprendizaje profundo para tareas de visión artificial, es crucial diferenciar entre la incertidumbre epistémica (relacionada con el modelo) y la incertidumbre aleatoria (relacionada con los datos). Modelar estas incertidumbres de manera efectiva mejora la capacidad de los sistemas de visión para tomar decisiones más informadas.</p>
-                            <h2 class="section-heading">Aplicaciones Prácticas</h2>
-                            <p>La tecnología de visión artificial ha sido aplicada en la creación de sistemas de vigilancia infantil, que utilizan cámaras de visión nocturna de alta calidad junto con sensores de detección de sonido y movimiento, demostrando su utilidad en la monitorización de entornos sensibles . Además, en la industria agrícola, la visión artificial se ha empleado para clasificar y evaluar la calidad de frutas y verduras basándose en atributos como color, textura y defectos, lo que optimiza la cadena de suministro y mejora la satisfacción del consumidor.</p>
-                            <h2 class="section-heading">Desafíos y Futuras Direcciones</h2>
-                            <p>A pesar de los avances, la visión artificial aún enfrenta desafíos significativos, como los ataques adversarios, que pueden comprometer la efectividad de los modelos de aprendizaje profundo . La continua evolución de técnicas como el aprendizaje multimodal y los métodos de autoencodificación enmascarada (MAE) promete mitigar algunos de estos desafíos, mejorando la robustez y escalabilidad de los modelos de visión artificial.</p>
-                        </a>
-                        <p class="post-meta">
-                            Generado por
-                            <a href="#!">Chat GPT</a>
-                            30 agosto, 2024
-                        </p>
+        <main class="mb-4">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <h2>Resumen</h2>
+                        <p>El estudio presentado explora el uso de un modelo de inteligencia artificial basado en visión por
+                            computadora para la detección y conteo automático de instrumentos quirúrgicos, con el objetivo de
+                            abordar el problema de la retención accidental de objetos en el cuerpo de un paciente después de una
+                            cirugía, un incidente grave que puede tener consecuencias críticas para la seguridad del paciente.
+                        <p>
+
+                        <p>Los autores señalan que, a pesar de los esfuerzos actuales para prevenir estos incidentes, la
+                            dependencia de métodos manuales para contar instrumentos quirúrgicos sigue siendo común, lo que
+                            introduce un margen significativo para errores humanos. En este contexto, el estudio propone una
+                            solución innovadora mediante la implementación de un modelo de aprendizaje profundo capaz de
+                            detectar y contar automáticamente los instrumentos durante una operación quirúrgica.</p>
+
+                        <p>Para llevar a cabo esta investigación, los autores desarrollaron un conjunto de datos compuesto por
+                            1,004 imágenes que contenían 13,213 herramientas quirúrgicas, distribuidas en 11 categorías
+                            diferentes. Utilizando estas imágenes, se entrenó un modelo de inteligencia artificial que fue
+                            posteriormente evaluado utilizando métricas estándar de detección de objetos. Los resultados fueron
+                            prometedores: el modelo alcanzó una alta precisión del 98.5% y una sensibilidad del 99.9% en la
+                            identificación de instrumentos quirúrgicos, demostrando su eficacia incluso en situaciones complejas
+                            donde las herramientas estaban superpuestas.</p>
+
+                        <p>Además, el modelo fue probado en un entorno simulado de cirugía en tiempo real, donde mantuvo un
+                            rendimiento sólido con una velocidad de procesamiento de 40.4 fotogramas por segundo, lo que subraya
+                            su potencial para ser utilizado en entornos clínicos reales.</p>
+
+                        <p>En conclusión, este estudio sugiere que el uso de modelos de visión por computadora puede ofrecer una
+                            solución efectiva para mejorar la seguridad en el quirófano, reduciendo la dependencia de los
+                            métodos manuales y, por lo tanto, disminuyendo la probabilidad de errores humanos. Los autores
+                            proponen que se realicen estudios adicionales en entornos clínicos para validar aún más la eficacia
+                            de este enfoque y explorar su implementación práctica en el sistema de salud.</p>
+
+
+                        <h2>Ideas Principales</h2>
+                        <p> </p>
+                        <ul>
+                            <li><strong>Prevención de Retención de Instrumentos Quirúrgicos:</strong> El estudio aborda la problemática de los objetos quirúrgicos retenidos accidentalmente en los pacientes después de una cirugía, un error prevenible pero común en la práctica médica, que actualmente depende de métodos manuales propensos a errores humanos.</li>
+                            <li><strong>Aplicación de Inteligencia Artificial:</strong> Se propone y evalúa un modelo de visión por computadora basado en aprendizaje profundo, capaz de detectar y contar automáticamente instrumentos quirúrgicos con alta precisión y sensibilidad, incluso en escenarios complejos con herramientas superpuestas.</li>
+                            <li><strong>Potencial para Mejorar la Seguridad Quirúrgica:</strong> Los resultados sugieren que este modelo de IA podría integrarse en entornos clínicos para mejorar la seguridad del paciente, reducir la carga de trabajo manual en el personal quirúrgico, y disminuir la incidencia de errores en el conteo de instrumentos.</li>
+                        </ul>
+                        <p> </p>
+
+                        <h2>Ficha Técnica</h2>
+                        <p> </p>
+                        <ul>
+                            <li><strong>Título:</strong> Hidden flaws behind expert-level accuracy of multimodal GPT-4 vision in
+                                medicine
+                            </li>
+                            <li><strong>Fecha de publicación:</strong> 24 de agosto de 2023</li>
+                            <li><strong>Autores:</strong> Qiao Jin, Fangyuan Chen, Yiliang Zhou, entre otros</li>
+                            <li><strong>DOI:</strong> <a href="https://doi.org/10.1038/s41746-024-01185-7">10.1038/s41746-024-01185-7</a>
+                            </li>
+                        </ul>
+                        <p> </p>
+
+                        <h2>Conclusiones</h2>
+                        <p>El estudio resalta que, aunque GPT-4V tiene un buen rendimiento en precisión, sus errores en
+                            razonamientos son preocupantes. Esto sugiere que no se debe confiar completamente en la IA para
+                            decisiones médicas sin una evaluación más profunda. En el contexto de la visión artificial y el
+                            reconocimiento visual basado en IA, es crucial asegurarse de que los modelos no solo sean precisos
+                            en sus respuestas, sino que también comprendan correctamente las imágenes y el contexto médico. La
+                            capacidad de interpretar correctamente las imágenes médicas es fundamental para diagnósticos
+                            precisos y tratamientos efectivos. Sin esta comprensión, se corre el riesgo de tomar decisiones
+                            erróneas que podrían afectar la salud del paciente.</p>
+                        <h2>Video</h2>
+                        <p> </p>
+                        <div class="embed-responsive embed-responsive-16by9 mb-4">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID"
+                                    allowfullscreen></iframe>
+                        </div>
+                        <p> </p>
+
+                        <a href="#!"><img class="img-fluid" src="assets/img/IA_Medicina_Quirúrgica.jpg" alt="..."/></a>
+                        <span class="caption text-muted">Imagen de muestra</span>
                     </div>
-                </div>
-                    <!-- Divider-->
-                    <hr class="my-4" />
-                    <!-- Pager-->
-                    <div class="d-flex justify-content-end mb-4"><a class="btn btn-primary text-uppercase" href="#!">Older Posts →</a></div>
-                </div>
-            </div>
-        </div>
+        </main>
         <!-- Footer-->
         <footer class="border-top">
             <div class="container px-4 px-lg-5">
